@@ -20,10 +20,9 @@ func check(e error) {
 }
 
 func main() {
-    location := "C:/users/kwillms/desktop/setInput.txt"
     // Perhaps the most basic file reading task is
     // slurping a file's entire contents into memory.
-    dat, err := ioutil.ReadFile(location)
+    dat, err := ioutil.ReadFile("./setInput.txt")
     check(err)
     var cards = strings.Split(string(dat),"\r\n")
     // commas := regexp.MustCompile(",")

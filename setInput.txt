@@ -1,0 +1,5 @@
+Red,1,Oval,Striped
+Red,1,Oval,Solid
+Red,1,Oval,Blank
+Blue,2,Curve,Striped
+Purple,3,Diamond,Solid
